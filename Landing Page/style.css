@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  
+  .nav {
+    list-style: none;
+    margin: 0;
+    padding-top: 16px;
+    width: 90%;
+    height: 150px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+   
+    
+
+  }
+  .nav li {
+    float: right;
+    margin-right: 4%;
+    font-weight: bold;
+    line-height: 50px;
+  }
+  .nav li:last-child {
+    float: left;
+    margin-left: 4%;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.main-sec{
+    position: relative;
+  }
+
+  .main-sec-head{
+    
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    color: white;
+    width: 40%;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    line-height: 120px;
+  }
+  .grid-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 150px;
+    
+    
+    
+  }
+  .box{
+   
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  }
+ .grid-sec .box img{
+  border-radius: 20px;
+
+ }
+ .grid-sec .box img:hover{
+  transform: scale(1.01);
+ }
+ .mod-heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  
+ }
+.grid-sec-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 250px;
+  grid-gap: 40px;
+  margin-top: -5px;
+  
+}
+.grid-sec-2 .box-2 img{
+border-radius: 20px;
+}
+.grid-sec-2 .box-2 img:hover{
+transform: scale(1.01);
+}
+.container-2{
+  width: 800px;
+  height: 600px;
+  background: #000000;
+  margin: auto;
+  padding: 40px;
+}
+
+.Cont{
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  font-size: 14px;
+  border-radius: 5px;
+
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+
+.btn{
+  width: 250px;
+  background: #ffffff;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin:  auto;
+  color: #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+  
+}
+footer {
+  width: 100%;
+  margin: 0 0;
+  height: 50px;
+  background-color: #212123;
+
+}
+
+.copyright {
+  width: 50%;
+  float: left;
+  color: white;
+}
+
